@@ -49,7 +49,8 @@ while(repeat):
     
     # Check if users answer is correct
     is_correct = check_answer(answer, follower_a, follower_b)
-    # Clear the screen to avoid cluter
+    
+    # Clear the screen to avoid cluter and pri-nt the logo
     clear()
     print(logo)
     # Give the user Feedback
